@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/28e7b95813.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0; padding: 0;
+        }
+        body{
+            /* border: white 5px solid; */
+            height: 100vh;
+            background: url(bg1.jpg) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        main{    
+            /* border: 3px red solid; */
+        }
+        .h-1 h1{
+            border-bottom: white 3px solid;
+            display: inline-block;
+            color: white;
+            font-size: 3rem;
+            padding-bottom: 10px;
+        }
+        .form{
+            /* margin-top: 15px; */
+            border-bottom: 3px white solid;
+            
+        }
+        .form > i{
+            /* width: 100px; */
+            /* height: 100px; */
+            color: rgb(255, 255, 255);
+            padding-right:10px;
+        }
+    
+        input{
+           
+            width: 250px;
+            margin-top: 25px;
+            color: white;
+            background: none;
+            font-size: 1rem;
+            border: none;
+            }
+            input:focus{
+                outline: none;
+            }
+        button{
+            width: 90px; height: 30px;
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 1rem;
+            border-radius: 10px;
+            background: none;
+            border: 3px white solid;
+            cursor: pointer;
+            color: white;
+            outline: none;
+            
+
+        }
+     
+    </style>
+</head>
+<body>
+    <main>
+        <div class="h-1">
+            <h1>Sign In</h1>
+        </div>
+        <div class="form">
+            <i class="far fa-envelope"></i>
+            <input type="text">
+        </div>
+        <div class="form">
+            <i class="fas fa-key"></i>
+            <input type="password">
+        </div>
+        <div class="button">
+            <button>Sign In</button>
+        </div>
+        <i class="fa-solid fa-key-skeleton-left-right"></i>
+    </main>
+</body>
+</html>
